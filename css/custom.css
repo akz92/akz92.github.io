@@ -9,7 +9,7 @@ body {
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: #000;  /*Sets the text hover color on navbar*/
+  color: white;  /*Sets the text hover color on navbar*/
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >   
@@ -25,7 +25,7 @@ a:hover, .navbar-default .navbar-nav > .active > a:focus {
 
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
-  color: #262626;
+  color: #D73333;
   text-decoration: none;
   background-color: #66CCFF;  /*change color of links in drop down here*/
 }
