@@ -6,7 +6,8 @@ gems:
   - jekyll-redirect-from
 
 url: akz.me
-title: Aride Atacado
+title: Better Specs
+subtitle: { rspec guidelines with ruby }
 email: contato@arideatacado.com.br
 phone: (28)3521-5722
 #author: Your Name
