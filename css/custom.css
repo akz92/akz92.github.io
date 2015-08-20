@@ -1,4 +1,4 @@
-.vertical-navbar {
+#vertical-navbar {
   @media (min-width: 768px) {
     .navbar-collapse {
       height: auto;
