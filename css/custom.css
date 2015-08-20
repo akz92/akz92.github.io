@@ -21,6 +21,7 @@ a:hover, .navbar-default .navbar-nav > .active > a:focus {
 .navbar-default {
   background-color: #D73333;
   border-color: #030033;
+  border: none;
 }
 
 .dropdown-menu > li > a:hover,
@@ -47,4 +48,8 @@ a:hover, .navbar-default .navbar-nav > .active > a:focus {
 
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
   color: white;
+}
+
+.navbar-fixed-top {
+  border-width: 0;
 }
