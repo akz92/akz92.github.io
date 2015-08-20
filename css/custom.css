@@ -9,12 +9,12 @@ body {
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: white;  /*Sets the text hover color on navbar*/
+  color: white !important;  /*Sets the text hover color on navbar*/
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >   
 a:hover, .navbar-default .navbar-nav > .active > a:focus {
-  color: white; /*BACKGROUND color for active*/
+  color: white !important; /*BACKGROUND color for active*/
   background-color: #030033;
 }
 
@@ -25,7 +25,7 @@ a:hover, .navbar-default .navbar-nav > .active > a:focus {
 
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
-  color: #D73333;
+  color: white !important;
   text-decoration: none;
   background-color: #66CCFF;  /*change color of links in drop down here*/
 }
@@ -38,5 +38,5 @@ a:hover, .navbar-default .navbar-nav > .active > a:focus {
 
 
 .navbar-default .navbar-nav > li > a {
-  color: white; /*Change active text color here*/
+  color: white !important; /*Change active text color here*/
 }
