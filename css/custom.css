@@ -3,12 +3,18 @@
   max-width: 70%;
 }
 
-a {
+h1 > a {
   color: #52585D;
 }
 
-a:hover {
+h1 > a:hover {
   color: #52585D;
+}
+
+a {
+  color: #BE0000;
+}
+a:hover {
   text-decoration: none;
 }
 
