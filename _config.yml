@@ -35,3 +35,17 @@ highlighter: pygments
 #    url: https://github.com/IronSummitMedia/startbootstrap
 #  - title: linkedin
 #    url: 
+
+defaults:
+  -
+    scope:
+      file: _includes/index.html
+    values:
+      layout: default
+      lang: en
+  -
+    scope:
+      file: _includes/br.html
+    values:
+      layout: default
+      lang: br
