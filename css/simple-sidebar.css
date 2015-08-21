@@ -58,6 +58,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    overflow: hidden;
 }
 
 .sidebar-nav:hover {
