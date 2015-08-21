@@ -1,18 +1,22 @@
-body {
-  padding-top: 50px;
+.content {
+  padding: 20px 35px 0 35px;
   max-width: 70%;
 }
 
-.content {
-  padding: 20px 35px 0 35px;
+h1 > a,
+h4 > a{
+  color: #52585D;
+}
+
+h1 > a:hover,
+h4 > a:hover {
+  color: #52585D;
 }
 
 a {
-  color: #52585D;
+  color: #BE0000;
 }
-
 a:hover {
-  color: #52585D;
   text-decoration: none;
 }
 
@@ -72,9 +76,17 @@ header.heading h2{line-height:35px;font-size:30px}
   height:40px;line-height:40px;padding:0 0 0 41px;margin:0;font-size:22px;text-align:left;}
 #header h1 span{font-size:14px;}
 #header h1 a{color:inherit;text-shadow:0 1px 0 #888}
-#header ul.langs { float: right;overflow: hidden; }
-#header ul.langs li { float: left;display: inline-block; padding: 0 5px; }
-#header h2{-moz-box-shadow:inset 0 1px 0 rgba(255,255,255,0.40);-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.40);-moz-box-shadow:inset 0 1px 0 rgba(255,255,255,0.40);-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.40);box-shadow:inset 0 1px 0 rgba(255,255,255,0.40);background:#f4f4f4;background:-webkit-gradient(linear,left top,left bottom,from(#f4f4f4),to(#dcdcdc));background:-moz-linear-gradient(top,#f4f4f4,#dcdcdc);background:linear-gradient(top,#f4f4f4,#dcdcdc);
+#header ul.langs { float: right; overflow: hidden; padding-top: 10px; }
+#header ul.langs li { float: left; display: inline-block; padding: 0 5px; color: #808080; }
+#header h4{-moz-box-shadow:inset 0 1px 0 rgba(255,255,255,0.40);-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.40);-moz-box-shadow:inset 0 1px 0 rgba(255,255,255,0.40);-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.40);box-shadow:inset 0 1px 0 rgba(255,255,255,0.40);background:#f4f4f4;background:-webkit-gradient(linear,left top,left bottom,from(#f4f4f4),to(#dcdcdc));background:-moz-linear-gradient(top,#f4f4f4,#dcdcdc);background:linear-gradient(top,#f4f4f4,#dcdcdc);
   padding:0 0 0 41px;margin:0;text-align:left;height:40px;line-height:40px;border-bottom:1px solid #c7c7c7}
-#header h2 .breadcrumbs{ margin-left: 118px; }
-#header h2 .breadcrumbs span{ margin: 0px 6px; }
+#header h4 .breadcrumbs{ margin-left: 118px; }
+#header h4 .breadcrumbs span{ margin: 0px 6px; }
+
+#header {
+  position: fixed !important;
+  width: 100%;
+  z-index: 10000;
+}
+
+#site { padding-top: 500px; }

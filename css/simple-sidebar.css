@@ -7,6 +7,7 @@
 /* Toggle Styles */
 
 #wrapper {
+    padding-top: 80px;
     padding-left: 0;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -62,17 +63,18 @@
 .sidebar-nav li {
     text-indent: 20px;
     line-height: 40px;
+    color: #808080;
 }
 
 .sidebar-nav li a {
-    display: block;
+    display: inline;
     text-decoration: none;
-    color: #74787C;
+    color: #52585D;
 }
 
 .sidebar-nav li a:hover {
     text-decoration: none;
-    color: #74787C;
+    color: #52585D;
     background: #F4F4F4;
 }
 
