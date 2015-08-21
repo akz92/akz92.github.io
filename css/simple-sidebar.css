@@ -7,6 +7,7 @@
 /* Toggle Styles */
 
 #wrapper {
+    padding-top: 100px;
     padding-left: 0;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -19,7 +20,6 @@
 }
 
 #sidebar-wrapper {
-    padding-top: 100px;
     z-index: 1000;
     position: fixed;
     left: 250px;
