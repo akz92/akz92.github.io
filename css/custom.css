@@ -74,6 +74,7 @@ header.heading h2{line-height:35px;font-size:30px}
   padding:0 0 0 41px;margin:0;text-align:left;height:40px;line-height:40px;border-bottom:1px solid #c7c7c7}
 #header h4 .breadcrumbs{ margin-left: 118px; }
 #header h4 .breadcrumbs span{ margin: 0px 6px; }
+#header li { color: #808080; }
 
 #header {
   position: fixed !important;
