@@ -68,12 +68,12 @@
 .sidebar-nav li a {
     display: inline;
     text-decoration: none;
-    color: #74787C;
+    color: #52585D;
 }
 
 .sidebar-nav li a:hover {
     text-decoration: none;
-    color: #74787C;
+    color: #52585D;
     background: #F4F4F4;
 }
 
