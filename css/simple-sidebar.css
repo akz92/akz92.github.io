@@ -35,10 +35,6 @@
     overflow: hidden;
 }
 
-#sidebar-wrapper:hover {
-    overflow-y: auto;
-}
-
 #wrapper.toggled #sidebar-wrapper {
     width: 250px;
 }
