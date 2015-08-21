@@ -11,7 +11,12 @@ a {
 }
 
 a:hover {
+  color: #52585D;
   text-decoration: none;
+}
+
+p {
+  color: #52585D;
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
