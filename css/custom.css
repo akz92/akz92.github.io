@@ -66,13 +66,15 @@ a:hover, .navbar-default .navbar-nav > .active > a:focus {
   border-width: 0;
 }
 
-#section{position:absolute;top:0;left:270px;bottom:0;right:0;background:#fff;padding:0px 35px;font:15px "helvetica neue",helvetica,arial,sans-serif;overflow:auto;-webkit-overflow-scrolling:touch;}
-#section p,#section hr,#section h2,#section h3,#section ul,#section ol{max-width:650px}
-#section h1{margin:10px 0 20px 0; font-weight:normal}
-#section h2{font-size:28px;margin:25px 0 10px 0;line-height:1.4em;}
-#section p.wrong, #section p.correct, #section p.base{text-transform:uppercase;margin-top:10px; margin-bottom:0; padding: 5px 10px 5px 10px;}
-#section p.wrong {background:#c20101;color:#fff;}
-#section p.base {background-color:#ddd; color:#777;}
-#section p.correct {background:#00a20f;color:#fff;}
-#section pre {margin:0; padding:0; margin-bottom:10px;}
-#section code {border:0px !important;}
+header.heading{padding:10px;background:#f4f4f4;background:-webkit-gradient(linear,left top,left bottom,from(#f4f4f4),to(#e8e8e8));background:-moz-linear-gradient(top,#f4f4f4,#e8e8e8);background:linear-gradient(top,#f4f4f4,#e8e8e8);border-bottom:1px solid #d1d1d1;text-align:center;}
+header.heading h2{line-height:35px;font-size:30px}
+#header h1{border-top:1px solid #d73333;border-bottom:1px solid #;background:#d73333;background:-webkit-gradient(linear,left top,left bottom,from(#d73333),to(#d73333));background:-moz-linear-gradient(top,#d73333,#d73333);background:linear-gradient(top,#d73333,#d73333);color:#fff;text-shadow:0 -1px #000;
+  height:40px;line-height:40px;padding:0 0 0 41px;margin:0;font-size:22px;text-align:left;}
+#header h1 span{font-size:14px;}
+#header h1 a{color:inherit;text-shadow:0 1px 0 #888}
+#header ul.langs { float: right;overflow: hidden; }
+#header ul.langs li { float: left;display: inline-block; padding: 0 5px; }
+#header h2{-moz-box-shadow:inset 0 1px 0 rgba(255,255,255,0.40);-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.40);-moz-box-shadow:inset 0 1px 0 rgba(255,255,255,0.40);-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.40);box-shadow:inset 0 1px 0 rgba(255,255,255,0.40);background:#f4f4f4;background:-webkit-gradient(linear,left top,left bottom,from(#f4f4f4),to(#dcdcdc));background:-moz-linear-gradient(top,#f4f4f4,#dcdcdc);background:linear-gradient(top,#f4f4f4,#dcdcdc);
+  padding:0 0 0 41px;margin:0;text-align:left;height:40px;line-height:40px;border-bottom:1px solid #c7c7c7}
+#header h2 .breadcrumbs{ margin-left: 118px; }
+#header h2 .breadcrumbs span{ margin: 0px 6px; }
