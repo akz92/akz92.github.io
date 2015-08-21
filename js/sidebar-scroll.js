@@ -1,6 +1,6 @@
 $(function() {
 
-  var toolbox = $('#toolbox'),
+  var toolbox = $('#sidebar-wrapper'),
       height = toolbox.height(),
       scrollHeight = toolbox.get(0).scrollHeight;
 
