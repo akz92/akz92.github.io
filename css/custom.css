@@ -24,7 +24,7 @@ p {
   color: #52585D;
 }
 
-#section p.correct {
+p.correct {
   background: #00a20f;
   color: white;
 }
