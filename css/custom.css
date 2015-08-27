@@ -90,3 +90,8 @@ header.heading h2{line-height:35px;font-size:30px}
 }
 
 #site { padding-top: 500px; }
+
+#content {
+ overflow-y: scroll; 
+}
+}
