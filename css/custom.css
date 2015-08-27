@@ -29,6 +29,17 @@ p.correct {
   color: white;
 }
 
+pre {
+  border: 1px solid #DDDDDD;
+  border-top: none;
+}
+
+#section pre {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   color: white !important;  /*Sets the text hover color on navbar*/
 }
