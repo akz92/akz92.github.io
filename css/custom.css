@@ -24,6 +24,11 @@ p {
   color: #52585D;
 }
 
+#section p.correct {
+  background: #00a20f;
+  color: white;
+}
+
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   color: white !important;  /*Sets the text hover color on navbar*/
 }
