@@ -29,6 +29,11 @@ p.correct {
   color: white;
 }
 
+p.wrong {
+  background: #C20101;
+  color: white;
+}
+
 pre {
   border: 1px solid #DDDDDD;
   border-top: none;
