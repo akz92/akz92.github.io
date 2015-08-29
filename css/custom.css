@@ -44,6 +44,7 @@ pre {
   border: 1px solid #DDDDDD;
   border-top: none;
   border-radius: 0;
+  background-color: white;
 }
 
 #section pre {
