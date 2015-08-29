@@ -26,17 +26,18 @@ p {
 
 p.correct {
   background: #00a20f;
-  color: white;
 }
 
 p.wrong {
   background: #C20101;
-  color: white;
 }
 
 p.correct,
 p.wrong {
   margin: 0;
+  color: white;
+  text-transform: uppercase;
+  padding: 5px 10px 5px 10px;
 }
 
 pre {
