@@ -34,9 +34,15 @@ p.wrong {
   color: white;
 }
 
+p.correct,
+p.wrong {
+  margin: 0;
+}
+
 pre {
   border: 1px solid #DDDDDD;
   border-top: none;
+  border-radius: 0;
 }
 
 #section pre {
