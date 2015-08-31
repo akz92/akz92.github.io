@@ -20,18 +20,39 @@ a:hover {
   text-decoration: none;
 }
 
+li.little a {
+  font-size: 85%;
+}
+
+li.little {
+  margin: 8px 0;
+}
+
 p {
   color: #52585D;
 }
 
 p.correct {
   background: #00a20f;
+}
+
+p.wrong {
+  background: #C20101;
+}
+
+p.correct,
+p.wrong {
+  margin: 0;
   color: white;
+  text-transform: uppercase;
+  padding: 5px 10px 5px 10px;
 }
 
 pre {
   border: 1px solid #DDDDDD;
   border-top: none;
+  border-radius: 0;
+  background-color: white;
 }
 
 #section pre {

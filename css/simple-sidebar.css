@@ -56,13 +56,13 @@
     top: 0;
     width: 250px;
     margin: 0;
-    padding: 0;
+    padding: 15px 0 0 0;
     list-style: none;
 }
 
 .sidebar-nav li {
     text-indent: 20px;
-    line-height: 40px;
+    /*line-height: 40px;*/
     color: #808080;
 }
 
