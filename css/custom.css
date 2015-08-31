@@ -24,6 +24,10 @@ li.little a {
   font-size: 85%;
 }
 
+li.little {
+  margin: 8px 0;
+}
+
 p {
   color: #52585D;
 }
