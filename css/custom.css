@@ -20,7 +20,7 @@ a:hover {
   text-decoration: none;
 }
 
-#nav li.little a {
+li.little a {
   font-size: 85%;
 }
 
