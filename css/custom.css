@@ -32,6 +32,15 @@ p {
   color: #52585D;
 }
 
+p.correct,
+p.wrong,
+p.base {
+  margin: 0;
+  color: white;
+  text-transform: uppercase;
+  padding: 5px 10px 5px 10px;
+}
+
 p.correct {
   background: #00a20f;
 }
@@ -40,12 +49,9 @@ p.wrong {
   background: #C20101;
 }
 
-p.correct,
-p.wrong {
-  margin: 0;
-  color: white;
-  text-transform: uppercase;
-  padding: 5px 10px 5px 10px;
+p.base {
+  background: #DDD;
+  color: #777;
 }
 
 pre {
