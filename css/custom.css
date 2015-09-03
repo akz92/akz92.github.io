@@ -1,4 +1,5 @@
 body {
+  box-sizing: border-box;
   padding-top: 80px;
 }
 
