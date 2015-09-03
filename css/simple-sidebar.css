@@ -7,19 +7,6 @@
 /* Toggle Styles */
 
 #wrapper {
-    display: block;
-    position:absolute;
-    height:auto;
-    bottom:0;
-    top:0;
-    left:0;
-    right:0;
-    padding-top:20px;
-    margin-top:40px;
-    margin-bottom:20px;
-    margin-right:80px;
-    margin-left:80px;
-    background-color: green;
     padding-left: 0;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
