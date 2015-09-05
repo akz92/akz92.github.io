@@ -5,6 +5,7 @@
 }*/
 
 .content {
+  position: absolute;
   padding: 20px 35px 0 35px;
   max-width: 70%;
   left: 270px;
