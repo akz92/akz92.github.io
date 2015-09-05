@@ -18,7 +18,7 @@
 
 #sidebar-wrapper {
     z-index: 1000;
-    position: fixed;
+    position: absolute;
     left: 270px;
     width: 0;
     height: 100%;
@@ -68,10 +68,6 @@
 }
 
 @media(min-width:768px) {
-    #wrapper {
-        padding-left: 250px;
-    }
-
     #sidebar-wrapper {
         width: 270px;
     }
