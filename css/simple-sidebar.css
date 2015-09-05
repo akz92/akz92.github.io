@@ -47,6 +47,8 @@
     text-indent: 20px;
     /*line-height: 40px;*/
     color: #808080;
+    font-size: 15px;
+    margin: 10px 0;
 }
 
 .sidebar-nav li a {
